@@ -32,7 +32,7 @@
 
 <details>
 <summary>Erich's Screen Recording</summary>
-<img src="https://github.com/ErichDomme/Gesture-Controlled-Virtual-Mouse/blob/main/demo_media/Erich%20Recording.mp4" alt="Right Click" width="711" height="400"><br>
+<img src="https://github.com/ErichDomme/Gesture-Controlled-Virtual-Mouse/blob/main/demo_media/Erich%20Recording.mp4" alt="Screen Recording" width="711" height="400"><br>
  <figcaption>Just a short Screen Recording</figcaption>
 </details>
 
