@@ -1,4 +1,37 @@
+# Erich's submission for the repo challenge!
+## The challenge was about forking any repo that contains executable code.
 
+
+### CR_Digital and Soft Skills for Interdisciplinary Project Development
+
+------------------------------------
+
+## What did I have to do?
+
+- Step 0: Fork the Repo.
+- Step 1: Create Anaconda Environment. With Python: (3.6 - 3.8.5)! _I used 3.8.12_
+- Step 2: Follow instructions.
+- Step 3: Run the Voice Assistant - Proton.
+- Step 4: Test the voice commands and the virtual mouse.
+- EXTRA STEP: _I noticed that the voice command: "Proton launch Gesture Recognition" seemed to be unclear. "launch" was always recognised as "lounge". Therefore I have changed the command to "Proton start gesture recognition"._
+
+## Changes in file "Proton.py", in line 138!
+
+```bash
+  # DYNAMIC CONTROLS
+    elif "start gesture recognition" in voice_data:
+        if Gesture_Controller.GestureController.gc_mode:
+            reply("Gesture recognition is already active")
+        else:
+            gc = Gesture_Controller.GestureController()
+            t = Thread(target=gc.start)
+            t.start()
+            reply("Launched Successfully")
+  ```
+
+## I would like to thank very much **xenon-19 / Nishiket Bidawat** and his team, for this fantastic repo. The original documentation can be found below 
+
+----
 
 # Gesture Controlled Virtual Mouse &nbsp;[![](https://img.shields.io/badge/python-3.8.5-blue.svg)](https://www.python.org/downloads/) [![platform](https://img.shields.io/badge/platform-windows-green.svg)](https://github.com/xenon-19/Gesture_Controller) 
 
