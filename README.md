@@ -28,6 +28,14 @@
             t.start()
             reply("Launched Successfully")
   ```
+  
+
+<details>
+<summary>Erich's Screen Recording</summary>
+<img src="https://github.com/ErichDomme/Gesture-Controlled-Virtual-Mouse/blob/main/demo_media/Erich%20Recording.mp4" alt="Right Click" width="711" height="400"><br>
+ <figcaption>Just a short Screen Recording</figcaption>
+</details>
+
 
 ## I would like to thank very much **xenon-19 / Nishiket Bidawat** and his team, for this fantastic repo. The original documentation can be found below 
 
